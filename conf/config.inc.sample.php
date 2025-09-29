@@ -26,7 +26,7 @@ $DatabaseUsername = '__DB_USER__';
 $DatabasePassword = '__DB_PWD__';
 
 // Database name.
-$DatabaseName = '__DN_NAME__';
+$DatabaseName = '__DB_NAME__';
 
 
 /**
