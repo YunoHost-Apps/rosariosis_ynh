@@ -15,8 +15,7 @@ maintainers = ["eric_G"]
 license = "free"
 website = "https://www.rosariosis.org/"
 demo = "https://www.rosariosis.org/demo/"
-admindoc = "https://yunohost.org/packaging_apps"
-userdoc = "https://yunohost.org/apps"
+admindoc = "https://gitlab.com/francoisjacquet/rosariosis/blob/mobile/INSTALL.md"
 code = "https://gitlab.com/francoisjacquet/rosariosis"
 
 [integration]
