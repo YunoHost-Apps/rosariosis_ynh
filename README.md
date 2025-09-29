@@ -4,40 +4,40 @@ It shall NOT be edited by hand.
 -->
 
 <h1>
-  <img src="https://raw.githubusercontent.com/YunoHost/apps/main/logos/RosarioSIS.png" width="32px" alt="Logo of rosariosis">
-  rosariosis, packaged for YunoHost
+  <img src="https://raw.githubusercontent.com/YunoHost/apps/main/logos/rosariosis.png" width="32px" alt="Logo of RosarioSIS">
+  RosarioSIS, packaged for YunoHost
 </h1>
 
 Student Information System for school management
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://www.rosariosis.org/)
 [![App Demo](https://img.shields.io/badge/App_Demo-blue?style=for-the-badge)](https://www.rosariosis.org/demo/)
-[![Version: 12.4.2~ynh1](https://img.shields.io/badge/Version-12.4.2~ynh1-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/RosarioSIS/)
+[![Version: 12.4.2~ynh1](https://img.shields.io/badge/Version-12.4.2~ynh1-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/rosariosis/)
 
 <div align="center">
-<a href="https://apps.yunohost.org/app/RosarioSIS"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
-<a href="https://github.com/YunoHost-Apps/RosarioSIS_ynh/issues"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_report_an_issue.svg"/></a>
+<a href="https://apps.yunohost.org/app/rosariosis"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
+<a href="https://github.com/YunoHost-Apps/rosariosis_ynh/issues"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_report_an_issue.svg"/></a>
 </div>
 
 
 ## Screenshots
-![Screenshot of rosariosis](./doc/screenshots/example.jpg)
+![Screenshot of RosarioSIS](./doc/screenshots/example.jpg)
 
 ## 📦 Developer info
 
-[![Automatic tests level](https://apps.yunohost.org/badge/cilevel/RosarioSIS)](https://ci-apps.yunohost.org/ci/apps/RosarioSIS/)
+[![Automatic tests level](https://apps.yunohost.org/badge/cilevel/rosariosis)](https://ci-apps.yunohost.org/ci/apps/rosariosis/)
 
-🛠️ Upstream rosariosis repository: <https://gitlab.com/francoisjacquet/rosariosis>
+🛠️ Upstream RosarioSIS repository: <https://gitlab.com/francoisjacquet/rosariosis>
 
-Pull request are welcome and should target the [`testing` branch](https://github.com/YunoHost-Apps/RosarioSIS_ynh/tree/testing).
+Pull request are welcome and should target the [`testing` branch](https://github.com/YunoHost-Apps/rosariosis_ynh/tree/testing).
 
 The `testing` branch can be tested using:
 ```
 # fresh install:
-sudo yunohost app install https://github.com/YunoHost-Apps/RosarioSIS_ynh/tree/testing
+sudo yunohost app install https://github.com/YunoHost-Apps/rosariosis_ynh/tree/testing
 
 # upgrade an existing install:
-sudo yunohost app upgrade RosarioSIS -u https://github.com/YunoHost-Apps/RosarioSIS_ynh/tree/testing
+sudo yunohost app upgrade rosariosis -u https://github.com/YunoHost-Apps/rosariosis_ynh/tree/testing
 ```
 
 ### 📚 App packaging documentation
