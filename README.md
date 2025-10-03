@@ -21,7 +21,7 @@ Student Information System for school management
 
 
 ## Screenshots
-![Screenshot of RosarioSIS](./doc/screenshots/example.jpg)
+![Screenshot of RosarioSIS](./doc/screenshots/screenshot.png)
 
 ## 📦 Developer info
 
