@@ -11,7 +11,10 @@ source /usr/share/yunohost/helpers
 #=================================================
 ynh_script_progression --message="Loading settings..." --weight=1
 
+# Get the admin email address
 email=$(ynh_user_get_info --username=$admin --key=mail)
+# Get the timezone
+timezone=$(timedatectl show --value --property=Timezone)
 
 #=================================================
 # INITIALIZE AND STORE SETTINGS
