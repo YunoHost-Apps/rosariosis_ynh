@@ -55,10 +55,10 @@ ynh_config_add_nginx
 #=================================================
 ynh_script_progression "Setting up the application..."
 
-ynh_psql_db_shell < "${install_dir}/rosariosis.sql"
+ynh_psql_db_shell < "SET ROLE rosariosis; $(<${install_dir}/rosariosis.sql)"
 
 if [[ -e "${install_dir}/locale/${language}.utf8/rosariosis.sql" ]]; then
-    ynh_psql_db_shell < "${install_dir}/locale/${language}.utf8/rosariosis.sql"
+    ynh_psql_db_shell < "SET ROLE rosariosis; $(<${install_dir}/locale/${language}.utf8/rosariosis.sql)"
 fi
 
 #=================================================
