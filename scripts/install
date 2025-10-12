@@ -52,7 +52,8 @@ ynh_config_add_nginx
 
 # Install locale
 if [[ "${language}" != "en_US" ]]; then
-    sudo locale-gen "${language}.UTF-8"
+    echo "${language}.UTF-8 UTF-8" >> /etc/locale.gen
+    sudo locale-gen
     sudo update-locale
 fi
 
