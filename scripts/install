@@ -7,6 +7,13 @@
 source /usr/share/yunohost/helpers
 
 #=================================================
+# LOAD SETTINGS
+#=================================================
+ynh_script_progression --message="Loading settings..." --weight=1
+
+email=$(ynh_user_get_info --username=$admin --key=mail)
+
+#=================================================
 # INITIALIZE AND STORE SETTINGS
 #=================================================
 
