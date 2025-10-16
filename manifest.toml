@@ -39,6 +39,16 @@ ram.runtime = "50M"
     type = "group"
     default = "visitors"
 
+    [install.admin]
+    type = "user"
+
+    [install.language]
+    ask.en = "Choose the application language"
+    ask.fr = "Choisissez la langue de l'application"
+    type = "select"
+    choices = ["en_US", "fr_FR", "es_ES", "pt_BR"]
+    default = "en_US"
+
 [resources]
 
     [resources.sources]
@@ -62,7 +72,7 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "postgresql, php8.3-gd, php8.3-pgsql, php8.3-pdo, php8.3-gettext, php8.3-intl, php8.3-mbstring, php8.3-curl, php8.3-xml, php8.3-zip"
+    packages = "postgresql, php8.3-gd, php8.3-pgsql, php8.3-pdo, php8.3-gettext, php8.3-intl, php8.3-mbstring, php8.3-curl, php8.3-xml, php8.3-zip, locales"
 
     [resources.database]
     type = "postgresql"

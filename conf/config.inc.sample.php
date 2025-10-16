@@ -83,7 +83,7 @@ $DefaultSyear = '2025';
  *
  * Leave empty to not receive email notifications
  */
-$RosarioNotifyAddress = '';
+$RosarioNotifyAddress = '__EMAIL__';
 
 
 /**
@@ -108,4 +108,14 @@ $RosarioErrorsAddress = '';
  *
  * @example [ 'en_US.utf8', 'fr_FR.utf8', 'es_ES.utf8' ];
  */
-$RosarioLocales = [ 'fr_FR.utf8' ];
+$RosarioLocales = [ '__LANGUAGE__.utf8' ];
+
+
+/**
+ * Timezone
+ * Default time zone used by date/time functions
+ *
+ * List of Supported Timezones
+ * @link http://php.net/manual/en/timezones.php
+ */
+$Timezone = '__TIMEZONE__';
