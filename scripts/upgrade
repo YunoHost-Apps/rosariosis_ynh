@@ -7,12 +7,23 @@
 source /usr/share/yunohost/helpers
 
 #=================================================
+# LOAD SETTINGS
+#=================================================
+ynh_script_progression --message="Loading settings..." --weight=1
+
+# Get the admin email address
+email=$(ynh_user_get_info --username=$admin --key=mail)
+# Get the timezone
+timezone=$(timedatectl show --value --property=Timezone)
+
+#=================================================
 # ENSURE DOWNWARD COMPATIBILITY
 #=================================================
 ynh_script_progression "Ensuring downward compatibility..."
 
 ynh_app_setting_set_default --key=php_upload_max_filesize --value=100M
 ynh_app_setting_set_default --key=php_post_max_size --value=100M
+ynh_app_setting_set --key=php_memory_limit --value=512M
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
