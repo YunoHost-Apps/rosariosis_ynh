@@ -7,7 +7,7 @@ name = "RosarioSIS"
 description.en = "Student Information System for school management"
 description.fr = "Système d'information scolaire pour la gestion des établissements scolaires"
 
-version = "12.4.2~ynh1"
+version = "12.4.2~ynh2"
 
 maintainers = ["eric_G"]
 
