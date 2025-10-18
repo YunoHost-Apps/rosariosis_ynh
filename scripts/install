@@ -47,8 +47,8 @@ ynh_script_progression "Adding system configurations related to $app..."
 # Install locale
 if [[ "${language}" != "en_US" ]]; then
     echo "${language}.UTF-8 UTF-8" >> /etc/locale.gen
-    sudo locale-gen
-    sudo update-locale
+    locale-gen
+    update-locale
 fi
 
 # Create a PHP-FPM config (with conf/extra_php-fpm.conf being appended to it)
