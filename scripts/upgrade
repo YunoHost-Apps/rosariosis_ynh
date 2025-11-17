@@ -9,7 +9,7 @@ source /usr/share/yunohost/helpers
 #=================================================
 # LOAD SETTINGS
 #=================================================
-ynh_script_progression --message="Loading settings..." --weight=1
+ynh_script_progression "Loading settings..."
 
 # Get the admin email address
 email=$(ynh_user_get_info --username=$admin --key=mail)
@@ -35,9 +35,9 @@ ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="config.inc.php
 #=================================================
 # UPDATE A CONFIG FILE
 #=================================================
-ynh_script_progression "Updating $app's configuration files..."
+#ynh_script_progression "Updating $app's configuration files..."
 
-ynh_config_add --template="config.inc.sample.php" --destination="$install_dir/config.inc.php"
+#ynh_config_add --template="config.inc.sample.php" --destination="$install_dir/config.inc.php"
 
 #=================================================
 # REAPPLY SYSTEM CONFIGURATION
