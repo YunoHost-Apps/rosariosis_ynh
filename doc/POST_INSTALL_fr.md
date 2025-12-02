@@ -1,1 +1,1 @@
-Une fois RosarioSIS installé, vous pouvez vous connecter en tant qu'administrateur en saisissant `admin` comme nom d'utilisateur et mot de passe.
+RosarioSIS est installé, vous pouvez désormais vous connecter en tant qu'administrateur avec l'utilisateur `admin` et le mot de passe `admin`
