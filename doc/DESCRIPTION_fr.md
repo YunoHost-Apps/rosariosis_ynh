@@ -2,11 +2,11 @@ RosarioSIS regroupe dans une seule application web les modules suivants destiné
 
 ### Caractéristiques
 
-    Conception réactive : compatible avec les tablettes et les smartphones.
-    Traduit en français, espagnol, portugais (Brésil), allemand, grec, turc, vietnamien et bulgare.
-    Graphiques statistiques colorés pour la prise de décision.
-    Génération de documents PDF.
-    Inscription en ligne.
-    Modules de discipline, de comptabilité et de facturation des élèves inclus.
-    Intégration du système de gestion de l'apprentissage Moodle (LMS) incluse.
-    Nombreux modules complémentaires gratuits et Premium.
+- Conception réactive : compatible avec les tablettes et les smartphones.
+- Traduit en français, espagnol, portugais (Brésil), allemand, grec, turc, vietnamien et bulgare.
+- Graphiques statistiques colorés pour la prise de décision.
+- Génération de documents PDF.
+- Inscription en ligne.
+- Modules de discipline, de comptabilité et de facturation des élèves inclus.
+- Intégration du système de gestion de l'apprentissage Moodle (LMS) incluse.
+- Nombreux modules complémentaires gratuits et Premium.
