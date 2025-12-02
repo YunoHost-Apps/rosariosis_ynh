@@ -1,1 +1,1 @@
-Once RosarioSIS is installed, you can log in as an administrator entering `admin` as Username and Password.
+RosarioSIS is installed, you can now log in as an administrator using `admin` as login and `admin` as password
