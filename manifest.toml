@@ -41,6 +41,7 @@ ram.runtime = "50M"
 
     [install.admin]
     type = "user"
+    help.en = "The corresponding email address will be used for notifications"
 
     [install.language]
     ask.en = "Choose the application language"
