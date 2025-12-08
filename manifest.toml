@@ -7,7 +7,7 @@ name = "RosarioSIS"
 description.en = "Student Information System for school management"
 description.fr = "Système d'information scolaire pour la gestion des établissements scolaires"
 
-version = "12.5~ynh1"
+version = "12.6~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -41,6 +41,7 @@ ram.runtime = "50M"
 
     [install.admin]
     type = "user"
+    help.en = "The corresponding email address will be used for notifications"
 
     [install.language]
     ask.en = "Choose the application language"
@@ -54,8 +55,8 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://gitlab.com/francoisjacquet/rosariosis/-/archive/v12.5/rosariosis-v12.5.tar.bz2"
-    sha256 = "f31c9aa88ec0bddea12188a3c083586702b9aef12a6f2270a309edb32e10ba5c"
+    url = "https://gitlab.com/francoisjacquet/rosariosis/-/archive/v12.6/rosariosis-v12.6.tar.bz2"
+    sha256 = "77e96346c370fc84192bf4de2320c6590e5de787c3bf750a9e01cc4edeae5fca"
 
     autoupdate.strategy = "latest_gitlab_release"
 
