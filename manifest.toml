@@ -56,7 +56,7 @@ ram.runtime = "50M"
 
     [resources.sources.main]
     url = "https://gitlab.com/francoisjacquet/rosariosis/-/archive/v12.7.2/rosariosis-v12.7.2.tar.bz2"
-    sha256 = "af0945c758f5e88df5d5671f8e8431273d4ffee01189015e0c9746ce86285788"
+    sha256 = "b779069b79cafaff714572fd33f83d7d1c00794a086381df48fb5296cae4226a"
 
     autoupdate.strategy = "latest_gitlab_release"
 
