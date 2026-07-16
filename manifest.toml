@@ -7,7 +7,7 @@ name = "RosarioSIS"
 description.en = "Student Information System for school management"
 description.fr = "Système d'information scolaire pour la gestion des établissements scolaires"
 
-version = "12.9~ynh1"
+version = "12.9.1~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -55,8 +55,8 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://gitlab.com/francoisjacquet/rosariosis/-/archive/v12.9/rosariosis-v12.9.tar.bz2"
-    sha256 = "aac93020488065eb2089256f57cbb3c28d0756b59cf6e306c2ee28d2da4f5df4"
+    url = "https://gitlab.com/francoisjacquet/rosariosis/-/archive/v12.9.1/rosariosis-v12.9.1.tar.bz2"
+    sha256 = "21225bd8229529f5757c14114bffcccd1dd27837617f0a50b49d55e5cf51768e"
 
     autoupdate.strategy = "latest_gitlab_release"
 
